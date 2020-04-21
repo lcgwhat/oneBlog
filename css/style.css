@@ -156,6 +156,12 @@ input::-webkit-input-placeholder{
     padding-left: 12px;
     border-left: 1px solid #EEE;
 }
+.post-content{
+    padding: .5em;
+    line-height: 1.5;
+    background-size: auto 3em;
+
+}
 .keyword>a{
     border-right: 1px solid #999;
     padding-right: 5px;
