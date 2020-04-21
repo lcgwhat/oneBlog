@@ -1,4 +1,7 @@
-
+body, main::before{
+    content: '';
+    background-color: rgb(244, 245, 245);
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif;
 }
@@ -103,9 +106,8 @@ input::-webkit-input-placeholder{
 }
 
 .content{
-    background-color: rgb(244, 245, 245);
     margin-top: 1em;
-    min-height: 500px;
+    min-height:712px;
 }
 
 
@@ -142,4 +144,17 @@ input::-webkit-input-placeholder{
     margin: 0 8px 0 0;
     padding-left: 12px;
     border-left: 1px solid #EEE;
+}
+.footer{
+    text-align: center;
+    color: #999;
+}
+.footer>a{
+    color: #3354AA;
+    cursor: pointer;
+    padding-left: 3px;
+}
+.footer>a:nth-child(2){
+    border-left: 1px solid #999;
+
 }
