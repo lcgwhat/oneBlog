@@ -98,11 +98,15 @@ input::-webkit-input-placeholder{
     color: rgb(82,127,255);
     transition: 0.1s;
     font-size: 1.1em;
-   
 }
 
 .nav-list {
     display: flex;
+}
+.nav-list .link-item>a:hover{
+    color: rgb(82,127,255);
+    transition: 0.1s;
+    font-size: 1.1em;
 }
 .link-item{
     padding: 0 1.5rem;
