@@ -145,6 +145,14 @@ input::-webkit-input-placeholder{
     padding-left: 12px;
     border-left: 1px solid #EEE;
 }
+.keyword>a{
+    border-right: 1px solid #999;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.keyword>a:last-child{
+    border-right:none;
+}
 .footer{
     text-align: center;
     color: #999;
@@ -156,5 +164,5 @@ input::-webkit-input-placeholder{
 }
 .footer>a:nth-child(2){
     border-left: 1px solid #999;
-
 }
+
