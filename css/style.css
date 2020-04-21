@@ -1,3 +1,7 @@
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif;
+}
 a {
     text-decoration: none;
     cursor: pointer;
@@ -21,8 +25,8 @@ li {
     height: 5rem;
     color: #909090;
     background-color: #fff;
-    border-bottom:1px solid #f1f1f1;
-    
+    border-bottom:1.5px solid #f1f1f1;
+    box-shadow: 0 7px 4px -4px rgba(0,0,0,.2);;
 }
 .main-header .header{
     display: flex;
@@ -96,4 +100,46 @@ input::-webkit-input-placeholder{
 .auth .login::after{
     content: '.';
     margin-right: 0 0.4rem;
+}
+
+.content{
+    background-color: rgb(244, 245, 245);
+    margin-top: 1em;
+    min-height: 500px;
+}
+
+
+.content-border{
+    background-color: #fff;
+    border: 1.5px solid rgb(239, 239, 239);
+}
+.widget{
+    margin-bottom: 50px;
+}
+.widget .link{
+    color: #3354AA;
+    cursor: pointer;
+}
+.widget .link:hover{
+     color: #909090;
+}
+.post {
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+.post-list>li{
+    display: block;
+}
+.post-meta{
+    color: #999;
+    font-size: .928em;
+    padding: 0;
+    margin-top: -0.5em;
+}
+.post-meta>li{
+    display: inline-block;
+    margin: 0 8px 0 0;
+    padding-left: 12px;
+    border-left: 1px solid #EEE;
 }
